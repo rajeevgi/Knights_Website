@@ -67,11 +67,48 @@ body {
     color: white;
 }
 
-/* Poster */
-.image {
+/* Subscription Letter */
+.sub-image {
     background-image: url("../Html/bg_1.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.sub-image h1 {
+    z-index: 1;
+    color: #fff;
+    font-weight: 900px;
+    font-size: xx-large;
+}
+
+.sub-image input {
+    border-radius: 5px;
+}
+
+.sub-image input[type ="email"]{
+    padding-left: 10px;
+}
+
+.sub-image button {
+    width: 100px;
+    height: 60px;
+    background-color: #ffb400;
+    border-radius: 5px 0 0 5px;
+    margin-left: -10px;
+    border-left: none;
+}
+
+.center{
+    text-align: center;
+}
 
 /* Footer */
 .footer {
