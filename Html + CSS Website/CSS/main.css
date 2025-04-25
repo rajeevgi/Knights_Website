@@ -67,6 +67,74 @@ body {
     color: white;
 }
 
+/* Blog : Recent News */
+.pt {
+    padding-top: 40px;
+}
+
+.col {
+    padding: 0 10px;
+    margin-bottom: 100px;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.blog-text {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.blog-box {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-box + p:hover {
+    color: #ffb400;
+}
+
+.blog-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-mini-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    width: 120px;
+    display: flex;
+}
+
+.blog-mini-box .day {
+    font-size: 32px;
+    margin: 0;
+}
+
+.blog-mini-box .month-year {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.col .col-3, p {
+    font-size: large;
+    font-weight: bold;
+} 
+
 /* Subscription Letter */
 .sub-image {
     background-image: url("../Html/bg_1.jpg.webp");
@@ -93,7 +161,7 @@ body {
     border-radius: 5px;
 }
 
-.sub-image input[type ="email"]{
+.sub-image input[type="email"] {
     padding-left: 10px;
 }
 
@@ -106,7 +174,7 @@ body {
     border-left: none;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
@@ -173,10 +241,10 @@ body {
 }
 
 .mt {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
 }
 
-.container {
+.footer-container {
     max-width: 1200px;
     margin: auto;
     padding: 0 15px;
