@@ -67,6 +67,85 @@ body {
     color: white;
 }
 
+/* About the Knights Team */
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.text-grey {
+    color: #aaa;
+    flex-wrap: wrap;
+}
+
+.jc-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    width: 100%;
+    height: 100px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    width: 100%;
+    height: 100px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    width: 100%;
+    height: 100px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    width: 100%;
+    height: 100px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1, .box2, .box3, .box4 p {
+    font-weight: bold;
+}
+
+/* Testimonial */
+.test-image {
+    background-image: url('../Html/bg_2.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+}
+
 /* Blog : Recent News */
 .pt {
     padding-top: 40px;
@@ -130,10 +209,10 @@ body {
     font-weight: normal;
 }
 
-.col .col-3, p {
+/* .col .col-3, p {
     font-size: large;
     font-weight: bold;
-} 
+}  */
 
 /* Subscription Letter */
 .sub-image {
