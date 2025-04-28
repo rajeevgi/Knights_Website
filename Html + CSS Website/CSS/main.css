@@ -140,10 +140,111 @@ body {
 .test-image {
     background-image: url('../Html/bg_2.jpg.webp');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: 100%;
+    height: 500px;
     width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.9;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff1a;
+}
+
+.test-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.pb-3 {
+    padding-bottom: 1rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.heading-section {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.heading-section .sub-heading {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.heading-section h1 {
+    font-size: 40px;
+    color: #f8f9fa;
+}
+
+.col-md-7 {
+    position: relative;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.testimony-wrap {
+    display: block;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.testimony-wrap .user-img {
+    background-image: url("../Html/person_1.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.user-img { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony-wrap p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-circle-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffb400;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.testimony-wrap h1 {
+    color: #f8f9fa;
 }
 
 /* Blog : Recent News */
