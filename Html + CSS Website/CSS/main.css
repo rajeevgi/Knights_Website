@@ -67,6 +67,28 @@ body {
     color: white;
 }
 
+/* Features */
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.feature-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.feature-item h4 {
+    font-weight: bold;
+    color: #212529;
+}
+
+.feature-item p {
+    font-size: 15px;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+
 /* Team Squad */
 .team-image {
     background-image: url('../Html/bg_3.jpg.webp');
