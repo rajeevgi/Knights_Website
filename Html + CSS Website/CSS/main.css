@@ -67,6 +67,82 @@ body {
     color: white;
 }
 
+/* Team Squad */
+.team-image {
+    background-image: url('../Html/bg_3.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.9;
+}
+
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.team-wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.member-wrapper {
+    text-align: center;
+    color: #fff;
+}
+
+.member {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30px;
+    border: 3px solid #fff;
+}
+
+.member-wrapper h2 {
+    font-size: 22px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.member-wrapper p {
+    font-size: 16px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.member-1 {
+    background-image: url("../Html/staff-1.jpg.webp");
+}
+
+.member-2 {
+    background-image: url("../Html/staff-2.jpg.webp");
+}
+
+.member-3 {
+    background-image: url("../Html/staff-3.jpg.webp");
+}
+
+.member-4 {
+    background-image: url("../Html/staff-4.jpg.webp");
+}
+
+.member-5 {
+    background-image: url("../Html/staff-5.jpg.webp");
+}
+
 /* About the Knights Team */
 .col-6 {
     flex: 0 0 50%;
@@ -84,7 +160,7 @@ body {
     justify-content: center;
 }
 
-.box1 {
+.box {
     width: 100%;
     height: 100px;
     background-color: #f8f9fa;
@@ -96,43 +172,7 @@ body {
     justify-content: center;
 }
 
-.box2 {
-    width: 100%;
-    height: 100px;
-    background-color: #f8f9fa;
-    color: #343a40;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.box3 {
-    width: 100%;
-    height: 100px;
-    background-color: #f8f9fa;
-    color: #343a40;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.box4 {
-    width: 100%;
-    height: 100px;
-    background-color: #f8f9fa;
-    color: #343a40;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.box1, .box2, .box3, .box4 p {
+.box p {
     font-weight: bold;
 }
 
@@ -215,7 +255,7 @@ body {
     width: 100px;
 }
 
-.user-img { 
+.user-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +314,7 @@ body {
     overflow: hidden;
 }
 
-.blog-box + p:hover {
+.blog-box+p:hover {
     color: #ffb400;
 }
 
